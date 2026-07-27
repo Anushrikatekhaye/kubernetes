@@ -1,0 +1,4 @@
+eksctl delete cluster \
+  --name cluster-name \
+  --region region \
+  --disable-nodegroup-eviction
