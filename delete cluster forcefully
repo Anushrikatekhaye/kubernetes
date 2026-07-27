@@ -1,0 +1,7 @@
+### If you want to bypass the confirmation prompt, add --wait and --approve (if supported by your eksctl version):
+
+eksctl delete cluster \
+  --name cluster-name \
+  --region region \
+  --disable-nodegroup-eviction \
+  --approve
