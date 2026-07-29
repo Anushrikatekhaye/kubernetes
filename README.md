@@ -127,11 +127,11 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: ai-k8s-agent
+  name: k8s-cluster
   region: ap-south-1
 
 nodeGroups:
-  - name: ai-k8s-agent-nodes
+  - name: k8s-cluster-nodes
     instanceType: t3.medium
     desiredCapacity: 2
     minSize: 1
